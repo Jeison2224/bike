@@ -1,0 +1,15 @@
+[submodule "themes/cupper-hugo-theme"]
+	path = themes/cupper-hugo-theme
+	url = https://github.com/zwbetz-gh/cupper-hugo-theme.git
+[submodule "themes/huguette"]
+	path = themes/huguette
+	url = https://github.com/cathelijne/hugo-theme-huguette.git
+[submodule "themes/jesse"]
+	path = themes/jesse
+	url = https://github.com/jesselau76/hugo-w3-simple.git
+[submodule "themes/BlogRa"]
+	path = themes/BlogRa
+	url = https://github.com/rafed/BlogRa.git
+[submodule "themes/hugo-pure"]
+	path = themes/hugo-pure
+	url = https://github.com/undus5/hugo-pure

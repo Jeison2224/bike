@@ -1,0 +1,27 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'The Bike City'
+theme = 'hugo-pure'
+
+
+[menu]
+  [[menu.main]]
+    identifier = "Inicio"
+    url        = "/"
+    title      = "Inicio"
+    weight     = 1
+  [[menu.main]]
+    identifier = "BMX"
+    url        = "/BMX/"
+    title      = "BMX"
+    weight     = 2
+  [[menu.main]]
+    identifier = "montaña"
+    url        = "/montaña/"
+    title      = "montaña"
+    weight     = 3
+  [[menu.main]]
+    identifier = "otras"
+    url        = "/otras/"
+    title      = "otras"
+    weight     = 4
