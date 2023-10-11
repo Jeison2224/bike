@@ -25,6 +25,3 @@ theme = 'hugo-pure'
     url        = "/otras/"
     title      = "otras"
     weight     = 4
-
-[Params]
-  css =["fontawesome/css/all.min.css"]

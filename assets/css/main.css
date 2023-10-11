@@ -129,7 +129,7 @@ pre code {
     .poster-fixed {
         height: 14em;
     }
-    
+
     .poster-fixed img {
         height: 100%;
     }
@@ -258,12 +258,12 @@ pre {
 
     /* from "base16-snazzy" */
     body {
-        background-color: #282a36;
+        background-color: #091141;
         color: #fff;
     }
 
     pre {
-        background-color: #303446;
+        background-color: #501842;
     }
 
     .post-title__link,
@@ -282,7 +282,7 @@ pre {
     .pure-menu-selected .pure-menu-link,
     .pure-menu-selected .pure-menu-link:visited
     {
-        color: #fff;
+        color: #996c6c;
     }
 
     .pure-menu-link:hover {

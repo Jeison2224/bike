@@ -9,7 +9,7 @@
     <div class="pure-menu">
         <a class="pure-menu-heading" href="{{- relURL "" -}}">{{- .Site.Title -}}</a>
 
-        <ul class="pure-menu-list">
+        <ol class="pure-menu-list">
             {{- $menus := .Site.Menus.main }}
             {{- with .Site.Menus.secondary }}
                 {{- $menus = $menus | append . }}
@@ -19,7 +19,7 @@
                     <a href="{{- .URL -}}" class="pure-menu-link">{{- .Title -}}</a>
                 </li>
             {{- end }}
-        </ul>
+        </ol>
 
         <ul class="pure-menu-list"></ul>
     </div>
