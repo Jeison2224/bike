@@ -1,6 +1,6 @@
 {{- $page := . }}
 <div id="custom-menu">
-    <ul class="custom-menu-list">
+    <ol class="custom-menu-list">
         {{- $menus := .Site.Menus.main }}
         {{- with .Site.Menus.secondary }}
             {{- $menus = $menus | append . }}
@@ -20,5 +20,5 @@
                 </a>
             </li>
         {{- end }}
-    </ul>
+    </ol>
 </div>

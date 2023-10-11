@@ -1,0 +1,48 @@
+/* menu.css */
+
+#menu {
+    max-width: var(--max-width);
+    margin: 0 auto;
+    padding: 1em 0 0;
+}
+
+#menu .pure-menu-horizontal {
+    white-space: normal;
+}
+
+@media print {
+    #menu { display: none; }
+}
+
+
+#custom-menu {
+    background-color: #333;
+}
+
+.custom-menu-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.custom-menu-item {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.custom-menu-link {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+
+}
+
+.custom-menu-link:hover {
+    background-color: #555;
+}
+
+.custom-menu-selected {
+    font-weight: bold;
+    color: #ffcc00;
+}
