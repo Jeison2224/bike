@@ -1,0 +1,24 @@
+{{- $page := . }}
+<div id="custom-menu">
+    <ul class="custom-menu-list">
+        {{- $menus := .Site.Menus.main }}
+        {{- with .Site.Menus.secondary }}
+            {{- $menus = $menus | append . }}
+        {{- end }}
+        {{- range $menus }}
+            <li class="custom-menu-item {{ if eq $page.RelPermalink .URL }} custom-menu-selected {{ end -}}">
+                <a
+                    class="custom-menu-link"
+                    href="{{- relURL .URL -}}"
+                    {{ with .Params.targetBlank }}target="_blank"{{ end -}}
+                >
+                    {{- with .Params.iconClass }}
+                        <i class="{{- . -}}"></i>
+                    {{- else }}
+                        {{- .Title -}}
+                    {{- end }}
+                </a>
+            </li>
+        {{- end }}
+    </ul>
+</div>

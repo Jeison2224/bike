@@ -1,0 +1,33 @@
+/* static/css/custom.css */
+
+#custom-menu {
+    background-color: #333; /* Cambiar el color de fondo del menú */
+}
+
+.custom-menu-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.custom-menu-item {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.custom-menu-link {
+    text-decoration: none;
+    color: #fff; /* Cambiar el color del texto del menú */
+    padding: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.custom-menu-link:hover {
+    background-color: #555; /* Cambiar el color de fondo al pasar el mouse */
+}
+
+.custom-menu-selected {
+    font-weight: bold; /* Estilo adicional para el elemento seleccionado */
+    color: #ffcc00; /* Cambiar el color del texto para el elemento seleccionado */
+}
