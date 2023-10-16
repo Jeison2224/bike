@@ -6,7 +6,11 @@ draft = false
 
 # GT Bicycles Pro Performer 20: La Esencia de la Excelencia BMX
 
-GT Bicycles ha elevado la barra en el mundo de la BMX con su emblemático modelo Pro Performer 20, una bicicleta que encarna la esencia misma de la excelencia en este deporte. Diseñada para riders apasionados que buscan un rendimiento sin igual, la Pro Performer 20 ha sido la elección de numerosos ciclistas de élite, y su legado perdura como un ícono en la escena de la BMX.
+![BMX Pro20](https://gtbicycles.com/cdn/shop/files/ProPerformer20_3Q_BLK.jpg)
+
+[***GT Bicycles***](https://gtbicycles.com/collections/freestyle-bmx-bikes/products/pro-performer-20?variant=45862871925033) ha elevado la barra en el mundo de la BMX con su emblemático modelo Pro Performer 20, una bicicleta que encarna la esencia misma de la excelencia en este deporte. Diseñada para riders apasionados que buscan un rendimiento sin igual, la Pro Performer 20 ha sido la elección de numerosos ciclistas de élite, y su legado perdura como un ícono en la escena de la BMX.
+
+* * *
 
 ## Diseño y Tecnología Innovadora
 

@@ -10,10 +10,10 @@ draft = false
 
 ### imagenes
 #### Primera imagen:
-{{< imagen nombre="" alt="" >}}
+{{< imagen nombre="G22.jpg" alt="G22" >}}
 
 #### Segunda imagen:
-{{< imagen nombre="" alt="" >}}
+{{< imagen nombre="Pro20.jpg" alt="Pro20" >}}
 
 
 ### Gifs
@@ -26,8 +26,8 @@ draft = false
 
 ### videos
 #### Primer vídeo:
-{{< youtube video="" >}}
+{{< youtube video="Hnjih_vQ9fU" >}}
 
 #### Segundo vídeo:
-{{< youtube video="" >}}
+{{< youtube video="El0emlsO0q4" >}}
 
