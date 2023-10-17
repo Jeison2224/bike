@@ -4,25 +4,24 @@ date = 2023-10-04T18:03:02+02:00
 draft = false
 +++
 
-# Bikes
 
 ## multimedia
 
 ### imagenes
 #### Primera imagen:
-{{< figure src="/images/G22.jpg" alt="G22" caption="G22." >}}
+{{< imagen nombre="G22.jpg" alt="G22" >}}
 
 
 #### Segunda imagen:
-{{< figure src="/images/Pro20.jpg" alt="Pro20" caption="Pro20." >}}
+{{< imagen nombre="Pro20.jpg" alt="pro20" >}}
 
 
 ### Gifs
 #### Primer gif:
-{{< figure src="/images/mont.gif" alt="Montaña" caption="montaña." >}}
+{{< imagen nombre="mont.gif" alt="mont" >}}
 
 #### Segundo gif:
-{{< figure src="/images/bmx.gif" alt="bmx" caption="bmx." >}}
+{{< imagen nombre="bmx.gif" alt="bmx" >}}
 
 
 ### videos
@@ -33,4 +32,6 @@ draft = false
 
 #### Segundo vídeo:
 {{< youtube El0emlsO0q4 >}}
+{{< youtube video="El0emlsO0q4" >}}
+
 

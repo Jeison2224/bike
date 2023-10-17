@@ -1,13 +1,13 @@
-{{ $videoID := .Get "video" }}
-{{ if $videoID }}
+{{ $src := .Get "src" }}
+{{ if $src }}
   <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
     <iframe
-      src="https://www.youtube.com/embed/{{ $videoID }}"
+      src="{{ $src }}"
       style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;"
       allowfullscreen
-      title="YouTube Video"
+      title="Contenido Externo"
     ></iframe>
   </div>
 {{ else }}
-  <p style="color: red;">Error: El shortcode de YouTube requiere un parámetro "video" con el ID del video de YouTube.</p>
+  <p style="color: red;">Error: El shortcode de iframe requiere un parámetro "src" con la URL de la página web a embeber.</p>
 {{ end }}
