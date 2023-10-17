@@ -16,18 +16,19 @@
 
 
 #custom-menu {
-    background-color: #333;
+    background-color: #1c5b80;
 }
 
 .custom-menu-list {
     list-style: none;
     padding: 0;
-    margin: 0;
+    margin-left: 500px;
 }
 
 .custom-menu-item {
     display: inline-block;
-    margin-right: 10px;
+    margin-right: 100px;
+    
 }
 
 .custom-menu-link {
@@ -35,11 +36,12 @@
     color: #fff;
     padding: 10px;
     border-radius: 5px;
-
+    padding: 50px;
+    float: left;
 }
 
 .custom-menu-link:hover {
-    background-color: #555;
+    background-color: #449ec7;
 }
 
 .custom-menu-selected {

@@ -1,3 +1,4 @@
+
 <div id="footer">
     {{- .Site.Copyright }}
     {{- $menus := .Site.Menus.footer }}
@@ -14,3 +15,6 @@
         </a>
     {{- end }}
 </div>
+<p>{{ .Site.Params.name }}</p>
+<p>{{ .Title }}</p>
+<p>{{ .Site.Params.copi }}</p>

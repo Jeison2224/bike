@@ -3,6 +3,10 @@ languageCode = 'en-us'
 title = 'The Bike City'
 theme = 'hugo-pure'
 
+[params]
+  name = "José Daniel"
+  copi = "copyright © 2023"
+
 
 [menu]
   [[menu.main]]
