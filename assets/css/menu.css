@@ -1,50 +1,45 @@
-/* menu.css */
-
-#menu {
+#mi-menu {
     max-width: var(--max-width);
     margin: 0 auto;
     padding: 1em 0 0;
 }
 
-#menu .pure-menu-horizontal {
+#mi-menu .mi-menu-nav {
     white-space: normal;
 }
 
 @media print {
-    #menu { display: none; }
+    #mi-menu { display: none; }
 }
 
-
-#custom-menu {
+#mi-menu {
     background-color: #1c5b80;
 }
 
-.custom-menu-list {
+.mi-menu-nav {
     list-style: none;
     padding: 0;
-    margin-left: 500px;
 }
 
-.custom-menu-item {
+.mi-menu-item {
     display: inline-block;
-    margin-right: 100px;
-    
+    margin-right: 50px;
 }
 
-.custom-menu-link {
+.mi-menu-link {
     text-decoration: none;
     color: #fff;
     padding: 10px;
     border-radius: 5px;
-    padding: 50px;
+    padding: 30px;
     float: left;
 }
 
-.custom-menu-link:hover {
+.mi-menu-link:hover {
     background-color: #449ec7;
 }
 
-.custom-menu-selected {
+.mi-menu-selected {
     font-weight: bold;
     color: #ffcc00;
 }

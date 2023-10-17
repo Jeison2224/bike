@@ -1,24 +1,24 @@
 {{- $page := . }}
-<div id="custom-menu">
-    <ol class="custom-menu-list">
+<div id="mi-menu">
+    <nav class="mi-menu-nav">
         {{- $menus := .Site.Menus.main }}
         {{- with .Site.Menus.secondary }}
             {{- $menus = $menus | append . }}
         {{- end }}
         {{- range $menus }}
-            <li class="custom-menu-item {{ if eq $page.RelPermalink .URL }} custom-menu-selected {{ end -}}">
+            <div class="mi-menu-item {{ if eq $page.RelPermalink .URL }} mi-menu-selected {{ end }}">
                 <a
-                    class="custom-menu-link"
-                    href="{{- relURL .URL -}}"
-                    {{ with .Params.targetBlank }}target="_blank"{{ end -}}
+                    class="mi-menu-link"
+                    href="{{ relURL .URL }}"
+                    {{ with .Params.targetBlank }}target="_blank"{{ end }}
                 >
                     {{- with .Params.iconClass }}
-                        <i class="{{- . -}}"></i>
+                        <i class="{{ . }}"></i>
                     {{- else }}
-                        {{- .Title -}}
+                        {{ .Title }}
                     {{- end }}
                 </a>
-            </li>
+            </div>
         {{- end }}
-    </ol>
+    </nav>
 </div>
